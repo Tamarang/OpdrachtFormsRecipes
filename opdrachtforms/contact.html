@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <form name="contact" method="POST"  data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+
+        <label for="name">name:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">email:</label><br>
+        <input type="email" id="email" name="email"><br/>
+
+        <label for="tel">Phone number:</label><br>
+        <input type="tel" id="tel" name="tel"><br>
+
+        <label for="age">age:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+
+        <input type="radio" id="Man" name="gender" value="Man">
+        <label for="Man">Man</label><br>
+        <input type="radio" id="Woman" name="gender" value="Woman">
+        <label for="Woman">Woman</label><br><br>
+
+        <input type="checkbox" id="cuisine1" name="cuisine1" value="French">
+        <label for="cuisine1"> French</label><br>
+        <input type="checkbox" id="cuisine2" name="cuisine2" value="Italian">
+        <label for="cuisine2"> Italian</label><br>
+        <input type="checkbox" id="cuisine3" name="cuisine3" value="Spanish">
+        <label for="cuisine3"> Spanish</label><br>
+        <input type="checkbox" id="cuisine4" name="cuisine4" value="Arabic">
+        <label for="cuisine4"> Arabic</label><br><br>
+
+        <input type="color" id="apron" name="apron"
+           value="#e66465">
+        <label for="apron">Favorite apron color</label><br><br>  
+
+        <label for="bio">Biography:</label><br>
+        <textarea type="text" id="bio" name="bio"></textarea><br/><br>
+
+        <input type="file"
+       id="recipe" name="recipe"><br><br>
+
+       <input type="url" name="url" id="url"
+       placeholder="https://google.com"
+       pattern="https://.*"><br><br>
+       <input type="reset">
+        <input type="submit" value="Submit">
+      </form> 
+</body>
+</html>
